@@ -1,4 +1,5 @@
-目前 boilerplate 先以七個 model 為短期目標：
+目前 boilerplate 先以七個 model 為短期目標。每個 model 有自己的 pom 檔描述依賴關係，
+model 若有依賴關係，相依的會是介面，而不是實作。
 依賴關係如下圖
 
 ![依賴關係](images/boilerplate.png)
