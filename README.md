@@ -10,6 +10,8 @@ domain 層，不依賴任何一層。定義跟其他層互動的 interface，因
 
 ## application model
 application 層，僅依賴 domain 層提供的介面。目前監控 profiling 暫定放這。
+auth 會用 aop 的形式做在這層，因此這層會用到 spring aop。
+transaction 會在這邊定義，因此會依賴 spring-boot-starter-jdbc (需要 transaction  這個 annotation)
 
 ## web model
 spring boot 層，僅依賴 application，啟動/router/controlle放在這，目前暫定 swagger 相關會放這。
