@@ -2,3 +2,5 @@
 springboot-boilerplate.iml
 *.iml
 .DS_Store
+target/
+*/target/
