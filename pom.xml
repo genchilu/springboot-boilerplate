@@ -31,8 +31,19 @@
         <maven.compiler.target>11</maven.compiler.target>
         <springboot-boilerplate.version>0.0.1</springboot-boilerplate.version>
         <springboot.version>2.4.4</springboot.version>
+        <!-- test -->
+        <junit.version>5.4.0</junit.version>
     </properties>
 
     <dependencies>
+        <!-- test -->
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.7.1</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 </project>
