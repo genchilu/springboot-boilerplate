@@ -9,7 +9,6 @@
     <version>${springboot-boilerplate.version}</version>
     <modules>
         <module>persistence</module>
-        <module>persistence</module>
         <module>domain</module>
         <module>application</module>
         <module>web</module>
@@ -35,10 +34,5 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>hk.onedegree</groupId>
-            <artifactId>domain</artifactId>
-            <version>${springboot-boilerplate.version}</version>
-        </dependency>
     </dependencies>
 </project>
